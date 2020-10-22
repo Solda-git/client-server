@@ -39,6 +39,7 @@ os_code_list, os_type_list. В этой же функции создать гл�
 import json
 import re
 
+import yaml
 from chardet import UniversalDetector
 
 FILES = ['info_1.txt', 'info_2.txt', 'info_3.txt']
@@ -71,13 +72,20 @@ for index, field in enumerate(FIELDS):
 
 regex = re.compile(pattern)
 
+obj = {}
 
+obj_list = []
 
-with open('info_1.txt', mode='r', encoding=get_encoding('info_1.txt')) as file_descriptor:
-    for line in file_descriptor.readlines():
-        # print(line)
-        result = regex.match(line)
-        # result = re.match(r'(Изготовитель системы)|(Название ОС)|(Код продукта)', line)
-        if result:
-            print(line)
-            # obj = json.loads
+for file in FILES:
+    with open(file, mode='r', encoding=get_encoding('info_1.txt')) as file_descriptor:
+        obj_string = ""
+        for line in file_descriptor.readlines():
+            # print(line)
+            result = regex.match(line)
+            if result:
+                print(line, end='')
+            if result:
+                obj_string += line
+        obj_list.append(yaml.load(obj_string, Loader=yaml.FullLoader))
+    file_descriptor.close()
+print(obj_list)
