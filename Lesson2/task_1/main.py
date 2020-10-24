@@ -135,38 +135,3 @@ parser = FileParser(FILES, FIELDS)
 parser.get_data()
 # print(parser)
 parser.write_to_csv(OUTPUT_FILE)
-
-#
-#
-# # building PATTERN of needed fields to be logged
-# PATTERN = ''
-# for index, field in enumerate(FIELDS):
-#     PATTERN += f'({field})'
-#     if index < len(FIELDS) - 1:
-#         PATTERN += '|'
-# regex = re.compile(PATTERN)
-#
-# obj_list = []
-# COUNTER = 0
-# for file in FILES:
-#     with open(file, mode='r', encoding=get_encoding('info_1.txt')) as file_txt:
-#         COUNTER += 1
-#         obj_string = f"Номер: {str(COUNTER)}\n"
-#         for record in file_txt.readlines():
-#             result = regex.match(record)
-#             if result:
-#                 obj_string += record
-#         obj_list.append(yaml.load(obj_string, Loader=yaml.FullLoader))
-#     file_txt.close()
-#
-# print(obj_list[0].keys())
-#
-# with open(OUTPUT_FILE, mode='w',  encoding='utf-8') as file_csv:
-#     file_writer = csv.DictWriter(file_csv,
-#                                  delimiter=';',
-#                                  fieldnames=obj_list[0].keys()
-#                                  )
-#     file_writer.writeheader()
-#     for obj in obj_list:
-#         file_writer.writerow(obj)
-# file_csv.close()

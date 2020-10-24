@@ -1,0 +1,10 @@
+foods:
+- carrot
+- apple
+- onion
+- tomato
+number: 42
+pointers:
+  Новороссийск: 1220☟
+  Челябинск: 1480☛
+  Череповец: 370☝
