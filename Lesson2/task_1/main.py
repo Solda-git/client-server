@@ -52,6 +52,10 @@ FIELDS = [
 OUTPUT_FILE = 'my_data_report.csv'
 
 class FileParser:
+    """
+    This class implements the functionality according to requirement -
+    convert list of .txt files into .csv file
+    """
 
     def __init__(self, _file_list, _field_list):
         self.file_list = _file_list
@@ -72,10 +76,11 @@ class FileParser:
 
     def get_encoding(self, _file):
         """
-        function defines encoding of file in param
+        The function defines encoding of the file in param
         :param _file:
         :return: encoding
         """
+
         print(f'Detecting file: {_file}...')
         detector = UniversalDetector()
         with open(_file, 'rb') as file_descriptor:
@@ -90,8 +95,13 @@ class FileParser:
         return encoding
 
     def get_data(self):
+        """
+        The function collects necessary data according to the enumerated fields
+        in self.filed_list class member
+        :return:
+        """
         counter = 0
-        # collecting data from txt file in common dictionary
+        # collecting data from txt files in common dictionary
         for file in self.file_list:
             with open(file, mode='r', encoding=self.get_encoding(file)) as file_txt:
                 counter += 1
@@ -101,10 +111,13 @@ class FileParser:
                         obj_string += record
                 self.object_list.append(yaml.load(obj_string, Loader=yaml.FullLoader))
             file_txt.close()
-        # print(obj_list)
-        # forming service arrays
 
     def write_to_csv(self, _csv_file):
+        """
+        The function puts the collected information into .csv file in param
+        :param _csv_file:
+        :return:
+        """
         with open(_csv_file, mode='w', encoding='utf-8') as file_csv:
             file_writer = csv.DictWriter(file_csv,
                                          delimiter=';',
