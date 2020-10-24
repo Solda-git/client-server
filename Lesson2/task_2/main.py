@@ -1,3 +1,4 @@
+
 """
 2. Задание на закрепление знаний по модулю json. Есть файл orders
 в формате JSON с информацией о заказах. Написать скрипт, автоматизирующий
@@ -38,3 +39,55 @@
 и достучаться до списка, который и нужно пополнять
 а потом сохранять все в файл
 """
+import json
+
+ITEM0 = {
+            "item": "notebook",
+            "quantity": "1",
+            "price": "100000",
+            "buyer": "Soldatov S.",
+            "date": "24.10.2020"
+        }
+
+ITEM1 = {
+            "item": "printer",
+            "quantity": "10",
+            "price": "6700",
+            "buyer": "Ivanov I.I.",
+            "date": "24.09.2017"
+        }
+
+JSON_FILE = 'orders.json'
+
+def write_order_to_json(_item, _quantity, _price, _buyer, _date):
+    """
+    Function adds cart_item with params in the cart file 'orders.json'
+    :param _item:
+    :param _quantity:
+    :param _price:
+    :param _buyer:
+    :param _date:
+    :return:
+    """
+    # content = {}
+    cart_item = {
+            "item": _item,
+            "quantity": _quantity,
+            "price": _price,
+            "buyer": _buyer,
+            "date": _date
+        }
+    print(cart_item)
+    with open(JSON_FILE, mode='r') as file_read:
+        content = json.load(file_read)
+        print(f"content: {content}")
+    file_read.close()
+
+    content['orders'].append(cart_item)
+
+    with open(JSON_FILE, mode='w', encoding='utf-8') as file_write:
+        json.dump(content, file_write)
+    file_write.close()
+
+write_order_to_json(ITEM0["item"], ITEM0["quantity"], ITEM0["price"], ITEM0["buyer"], ITEM0["date"])
+write_order_to_json(ITEM1["item"], ITEM1["quantity"], ITEM1["price"], ITEM1["buyer"], ITEM1["date"])
