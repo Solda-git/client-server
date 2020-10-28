@@ -86,7 +86,7 @@ def write_order_to_json(_item, _quantity, _price, _buyer, _date):
     content['orders'].append(cart_item)
 
     with open(JSON_FILE, mode='w', encoding='utf-8') as file_write:
-        json.dump(content, file_write, indent=4, sort_keys=True)
+        json.dump(content, file_write, indent=4, sort_keys=True, ensure_ascii=False)
         # json.dump(content, file_write)
     file_write.close()
 
