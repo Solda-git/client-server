@@ -1,6 +1,6 @@
 import json
 
-from EasyChat.lib.settings import MAX_PACKAGE_LEN, ENCODING
+from lib.settings import MAX_PACKAGE_LEN, ENCODING
 
 def get_message(socket):
     """

@@ -3,8 +3,8 @@ import sys
 from distutils import command
 from socket import SOCK_STREAM, AF_INET, socket
 
-from EasyChat.lib.routines import get_message, send_message
-from EasyChat.lib.settings import MAX_CONNECTIONS, COMMAND, TIMESTAMP, USER, ACCOUNT_NAME, ONLINE, DEFAULT_PORT, \
+from lib.routines import get_message, send_message
+from lib.settings import MAX_CONNECTIONS, COMMAND, TIMESTAMP, USER, ACCOUNT_NAME, ONLINE, DEFAULT_PORT, \
     DEFAULT_IP_ADDRESS, RESPONSE, ERROR
 
 
@@ -49,7 +49,7 @@ def main():
         sys.exit(1)
     try:
         if '-a' in sys.argv:
-            server_address = int(sys.argv[sys.argv.index('-a') + 1])
+            server_address = sys.argv[sys.argv.index('-a') + 1]
             print(server_address)
         else:
             server_address = '' #DEFAULT_IP_ADDRESS # =''
