@@ -5,7 +5,7 @@ from socket import SOCK_STREAM, AF_INET, socket
 
 from EasyChat.lib.routines import get_message, send_message
 from EasyChat.lib.settings import MAX_CONNECTIONS, COMMAND, TIMESTAMP, USER, ACCOUNT_NAME, ONLINE, DEFAULT_PORT, \
-    DEFAULT_IP_ADDRESS
+    DEFAULT_IP_ADDRESS, RESPONSE, ERROR
 
 
 def parse_message(message):
@@ -15,8 +15,8 @@ def parse_message(message):
     :param message:
     :return: dict with response code
     """
-    if COMMAND in message and message[command] == ONLINE and TIMESTAMP in message \
-        and USER in message and message[USER][ACCOUNT_NAME] == 'Guest':
+    if COMMAND in message and message[COMMAND] == ONLINE and TIMESTAMP in message \
+        and USER in message and message[USER][ACCOUNT_NAME] == 'guest':
         return {
             RESPONSE: 200
         }
@@ -50,15 +50,15 @@ def main():
     try:
         if '-a' in sys.argv:
             server_address = int(sys.argv[sys.argv.index('-a') + 1])
-            print(server_address);
+            print(server_address)
         else:
-            server_address = DEFAULT_IP_ADDRESS # =''
+            server_address = '' #DEFAULT_IP_ADDRESS # =''
     except IndexError:
         print("After '-a' option input address value to be listened by the server")
         sys.exit(1)
 
     each_socket = socket(AF_INET, SOCK_STREAM)
-    each_socket.bind((server_address, server_port))  # add server_address, server_port definition
+    each_socket.bind((server_address, server_port))
     each_socket.listen(MAX_CONNECTIONS)
 
     while True:
@@ -76,4 +76,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
