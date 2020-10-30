@@ -33,7 +33,7 @@ def parse_server_answer(message):
     if RESPONSE in message:
         if message[RESPONSE] == 200:
             return f'Correct message with response {message[RESPONSE]}.'
-        return f'Bad response. {message[RESPONSE]: {message[ERROR]}}'
+        return f'Bad response. {message[RESPONSE]}: {message[ERROR]}'
     raise ValueError
 
 def main():
