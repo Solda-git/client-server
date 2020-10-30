@@ -16,7 +16,8 @@ def parse_message(message):
     :return: dict with response code
     """
     if COMMAND in message and message[COMMAND] == ONLINE and TIMESTAMP in message \
-        and USER in message and message[USER][ACCOUNT_NAME] == 'guest':
+            and USER in message and ACCOUNT_NAME in message[USER] \
+            and message[USER][ACCOUNT_NAME] == 'guest':
         return {
             RESPONSE: 200
         }
@@ -35,7 +36,7 @@ def main():
     """
     try:
         if '-p' in sys.argv:
-            server_port = int(sys.argv[sys.argv.index('-p')+1])
+            server_port = int(sys.argv[sys.argv.index('-p') + 1])
             print(server_port);
         else:
             server_port = DEFAULT_PORT
@@ -52,7 +53,7 @@ def main():
             server_address = sys.argv[sys.argv.index('-a') + 1]
             print(server_address)
         else:
-            server_address = '' #DEFAULT_IP_ADDRESS # =''
+            server_address = ''  # DEFAULT_IP_ADDRESS # =''
     except IndexError:
         print("After '-a' option input address value to be listened by the server")
         sys.exit(1)
