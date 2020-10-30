@@ -71,7 +71,7 @@ def main():
             send_message(each_client_socket, server_response)
             each_client_socket.close()
         except (ValueError, json.JSONDecodeError):
-            print('Incorrect cliemt message received.')
+            print('Incorrect client message received.')
             each_client_socket.close()
 
 

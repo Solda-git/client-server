@@ -23,4 +23,6 @@ def send_message(socket, message):
     :param message:
     :return:
     """
-    socket.send(json.dumps(message).encode(ENCODING))
+    encoded = json.dumps(message).encode(ENCODING)
+    socket.send(encoded)
+    return encoded
