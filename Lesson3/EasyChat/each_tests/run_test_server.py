@@ -1,3 +1,8 @@
+"""
+module containes test server socket to test Easy Chat routine functions
+
+"""
+
 import json
 import os
 import sys
@@ -6,7 +11,7 @@ from socket import socket, AF_INET, SOCK_STREAM
 sys.path.append(os.path.join(os.getcwd(), '..'))
 from each_server import parse_message
 from lib.routines import get_message, send_message
-from lib.settings import MAX_CONNECTIONS, DEFAULT_IP_ADDRESS, DEFAULT_PORT
+from lib.settings import MAX_CONNECTIONS, DEFAULT_PORT
 
 print('Running test server')
 each_server_socket = socket(AF_INET, SOCK_STREAM)
