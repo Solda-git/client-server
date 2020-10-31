@@ -7,14 +7,12 @@ from socket import socket, AF_INET, SOCK_STREAM
 from unittest import TestCase, main
 
 sys.path.append(os.path.join(os.getcwd(), '..'))
-from each_tests.test_each_server import INCORRECT_RESPONSE_400, \
-    CORRECT_RESPONSE_200, CORRECT_MESSAGE, NO_COMMAND_MESSAGE
+from each_tests.test_each_server import \
+    CORRECT_RESPONSE_200, CORRECT_MESSAGE
 from lib.routines import send_message, get_message
 
-from lib.settings import DEFAULT_IP_ADDRESS, MAX_CONNECTIONS, DEFAULT_PORT, ENCODING
+from lib.settings import DEFAULT_IP_ADDRESS, DEFAULT_PORT, ENCODING
 
-PROCESS = None
-COUNTER = 0
 
 class TestEachRountines1(TestCase):
 
