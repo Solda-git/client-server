@@ -1,6 +1,12 @@
+""""
+module contains tests for EachServer functions
+
+"""
+import os
+import sys
 from time import time
 from unittest import TestCase, main
-
+sys.path.append(os.path.join(os.getcwd(), '..'))
 from each_server import parse_message
 from lib.settings import RESPONSE, ERROR, COMMAND, ONLINE, TIMESTAMP, ACCOUNT_NAME, USER
 
@@ -65,6 +71,9 @@ WRONG_USER_ACCOUNT_MESSAGE = {
 
 
 class TestEachServer(TestCase):
+    """
+    Test class with testing of EachServer functions
+    """
 
     def setUp(self):
         print('Test running...')
@@ -73,30 +82,50 @@ class TestEachServer(TestCase):
         print('Test finished!')
 
     def test_correct_message(self):
+        """
+        testing of function parse_message with correct argument
+        :return:
+        """
         self.assertEqual(
             parse_message(CORRECT_MESSAGE),
             CORRECT_RESPONSE_200
         )
 
     def test_no_command_message(self):
+        """
+        testing of function parse_message with incorrect argument
+        :return:
+        """
         self.assertEqual(
             parse_message(NO_COMMAND_MESSAGE),
             INCORRECT_RESPONSE_400
         )
 
     def test_wrong_command_message(self):
+        """
+        testing of function parse_message with incorrect argument
+        :return:
+        """
         self.assertEqual(
             parse_message(WRONG_COMMAND_MESSAGE),
             INCORRECT_RESPONSE_400
         )
 
     def test_no_timestamp_message(self):
+        """
+        testing of function parse_message with incorrect argument
+        :return:
+        """
         self.assertNotEqual(
             parse_message(NO_TIMESTAMP_MESSAGE),
             CORRECT_RESPONSE_200
         )
 
     def test_no_user_message(self):
+        """
+        testing of function parse_message with incorrect argument
+        :return:
+        """
         self.assertEqual(
             parse_message(NO_USER_MESSAGE),
             INCORRECT_RESPONSE_400
@@ -105,12 +134,20 @@ class TestEachServer(TestCase):
 # по результатам этого теста поправил входное условие тестируемой функции.
 # добавил проверку: and ACCOUNT_NAME in message[USER]
     def test_no_user_account_message(self):
+        """
+        testing of function parse_message with incorrect argument
+        :return:
+        """
         self.assertEqual(
             parse_message(NO_USER_ACCOUNT_MESSAGE),
             INCORRECT_RESPONSE_400
         )
 
     def test_wrong_user_account_message(self):
+        """
+        testing of function parse_message with incorrect argument
+        :return:
+        """
         self.assertNotEqual(
             parse_message(WRONG_USER_ACCOUNT_MESSAGE),
             CORRECT_RESPONSE_200
