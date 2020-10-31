@@ -1,5 +1,5 @@
 """"
-module contains tests for EachServer functions
+module contains tests for EasyChat server functions
 
 """
 import os
@@ -72,7 +72,7 @@ WRONG_USER_ACCOUNT_MESSAGE = {
 
 class TestEachServer(TestCase):
     """
-    Test class with testing of EachServer functions
+    Test class with testing of EachChat server functions
     """
 
     def setUp(self):
