@@ -1,0 +1,34 @@
+INFO       server_log_config    Info record
+WARNING    server_log_config    Warning record
+ERROR      server_log_config    Error record
+CRITICAL   server_log_config    Critical record
+INFO       server_log_config    Info record
+WARNING    server_log_config    Warning record
+ERROR      server_log_config    Error record
+CRITICAL   server_log_config    Critical record
+INFO       server_log_config    Info record
+WARNING    server_log_config    Warning record
+ERROR      server_log_config    Error record
+CRITICAL   server_log_config    Critical record
+INFO       server_log_config    Info record rotating
+WARNING    server_log_config    Warning record rotating
+ERROR      server_log_config    Error record rotating
+CRITICAL   server_log_config    Critical record rotating
+INFO       server_log_config    Info record rotating
+WARNING    server_log_config    Warning record rotating
+ERROR      server_log_config    Error record rotating
+CRITICAL   server_log_config    Critical record rotating
+INFO       server_log_config    Info record rotating
+WARNING    server_log_config    Warning record rotating
+ERROR      server_log_config    Error record rotating
+CRITICAL   server_log_config    Critical record rotating
+DEBUG      server_log_config    Critical record rotating + LOG_INFO
+INFO       server_log_config    Info record rotating
+WARNING    server_log_config    Warning record rotating
+ERROR      server_log_config    Error record rotating
+CRITICAL   server_log_config    Critical record rotating
+DEBUG      server_log_config    Critical record rotating + LOG_INFO
+INFO       server_log_config    Info record rotating
+WARNING    server_log_config    Warning record rotating
+ERROR      server_log_config    Error record rotating
+CRITICAL   server_log_config    Critical record rotating

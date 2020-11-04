@@ -1,0 +1,30 @@
+10 client_log_config Critical record rotating
+20 client_log_config Info record rotating
+30 client_log_config Warning record rotating
+40 client_log_config Error record rotating
+50 client_log_config Critical record rotating
+DEBUG client_log_config Critical record rotating
+INFO client_log_config Info record rotating
+WARNING client_log_config Warning record rotating
+ERROR client_log_config Error record rotating
+CRITICAL client_log_config Critical record rotating
+DEBUG      client_log_config    Critical record rotating
+INFO       client_log_config    Info record rotating
+WARNING    client_log_config    Warning record rotating
+ERROR      client_log_config    Error record rotating
+CRITICAL   client_log_config    Critical record rotating
+DEBUG      client_log_config    Critical record rotating
+INFO       client_log_config    Info record rotating
+WARNING    client_log_config    Warning record rotating
+ERROR      client_log_config    Error record rotating
+CRITICAL   client_log_config    Critical record rotating
+DEBUG      client_log_config    Critical record
+INFO       client_log_config    Info record
+WARNING    client_log_config    Warning record
+ERROR      client_log_config    Error record
+CRITICAL   client_log_config    Critical record
+DEBUG      client_log_config    Critical record
+INFO       client_log_config    Info record
+WARNING    client_log_config    Warning record
+ERROR      client_log_config    Error record
+CRITICAL   client_log_config    Critical record
