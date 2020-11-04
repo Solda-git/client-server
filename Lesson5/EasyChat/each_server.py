@@ -1,12 +1,16 @@
+"""
+Module implements basic functionality of EasyChat server
+
+"""
+
 import json
 import logging
 import sys
-from distutils import command
 from socket import SOCK_STREAM, AF_INET, socket
 
 from lib.routines import get_message, send_message
-from lib.settings import MAX_CONNECTIONS, COMMAND, TIMESTAMP, USER, ACCOUNT_NAME, ONLINE, DEFAULT_PORT, \
-    DEFAULT_IP_ADDRESS, RESPONSE, ERROR
+from lib.settings import MAX_CONNECTIONS, COMMAND, TIMESTAMP, USER, ACCOUNT_NAME, \
+    ONLINE, DEFAULT_PORT, DEFAULT_IP_ADDRESS, RESPONSE, ERROR
 
 import log.config.server_log_config
 
@@ -53,7 +57,8 @@ def main():
         S_LOGGER.error("After '-p' option no port entered.")
         sys.exit(1)
     except ValueError:
-        S_LOGGER.critical(f"Bad port number entered: {server_port} (must lay between 1024 and 65536).")
+        S_LOGGER.critical(f"Bad port number entered: {server_port} "
+                          f"(must lay between 1024 and 65536).")
         sys.exit(1)
     try:
         if '-a' in sys.argv:
@@ -83,7 +88,8 @@ def main():
             S_LOGGER.info('Closing connection')
             each_client_socket.close()
         except (ValueError, json.JSONDecodeError):
-            S_LOGGER.error(f'Incorrect client message received. Can\'t decode message from {each_client_address}.')
+            S_LOGGER.error(f'Incorrect client message received. Can\'t decode message from '
+                           f'{each_client_address}.')
             each_client_socket.close()
 
 if __name__ == '__main__':

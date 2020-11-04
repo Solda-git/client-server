@@ -1,3 +1,7 @@
+"""
+Module implements basic functionality of EasyChat client
+
+"""
 import json
 import logging
 import sys
@@ -5,8 +9,8 @@ from socket import socket, AF_INET, SOCK_STREAM
 from time import time
 
 from lib.routines import send_message, get_message
-from lib.settings import ONLINE, COMMAND, TIMESTAMP, USER, ACCOUNT_NAME, RESPONSE, ERROR, DEFAULT_IP_ADDRESS, \
-    DEFAULT_PORT
+from lib.settings import ONLINE, COMMAND, TIMESTAMP, USER, ACCOUNT_NAME, \
+    RESPONSE, ERROR, DEFAULT_IP_ADDRESS, DEFAULT_PORT
 
 import log.config.client_log_config
 
@@ -26,7 +30,8 @@ def make_online(account='guest'):
             ACCOUNT_NAME: account
         }
     }
-    C_LOGGER.debug(f'Online message for user {online_msg[USER][ACCOUNT_NAME]} created: {online_msg}.')
+    C_LOGGER.debug(f'Online message for user {online_msg[USER][ACCOUNT_NAME]} '
+                   f'created: {online_msg}.')
     return online_msg
 
 
@@ -61,7 +66,8 @@ def main():
         each_server_port = DEFAULT_PORT
         C_LOGGER.info(f'Port and address assigned to the default values.')
     except ValueError:
-        C_LOGGER.critical(f"Bad port number entered: {each_server_port} (must lay between 1024 and 65536).")
+        C_LOGGER.critical(f"Bad port number entered: {each_server_port} "
+                          f"(must lay between 1024 and 65536).")
         sys.exit(1)
 
     C_LOGGER.info(f'Port: {each_server_port} and  address: {each_server_address} - assigned.')

@@ -1,7 +1,10 @@
+"""
+Logging configuration for EasyChat client
+"""
+
 import logging
 import logging.handlers
 import os
-import sys
 from lib.settings import LOG_LEVEL
 
 PATH = os.path.dirname(os.path.abspath(__file__))
@@ -21,17 +24,6 @@ SRV_FORMATTER = logging.Formatter('%(asctime)-26s %(levelname)-10s %(module)-20s
 SRV_HANDLER.setFormatter(SRV_FORMATTER)
 SRV_LOG.addHandler(SRV_HANDLER)
 SRV_LOG.setLevel(LOG_LEVEL)
-
-
-# Parameters:
-#
-# PARAMS = {
-#     'host': 'localhost',
-#     'port': 50
-# }
-#
-# log.info('Connection params: %(host)s, %(port)d', PARAMS)
-
 
 if __name__ == '__main__':
     SRV_LOG.debug('Critical record rotating + LOG_INFO')

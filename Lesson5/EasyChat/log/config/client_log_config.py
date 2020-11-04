@@ -1,3 +1,7 @@
+"""
+Logging configuration for EasyChat client
+"""
+
 import logging
 import os
 from lib.settings import LOG_LEVEL
@@ -19,4 +23,3 @@ if __name__ == '__main__':
     CLNT_LOG.warning('Warning record')
     CLNT_LOG.error('Error record')
     CLNT_LOG.critical("Critical record")
-
