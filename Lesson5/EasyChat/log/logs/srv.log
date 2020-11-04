@@ -32,3 +32,33 @@ INFO       server_log_config    Info record rotating
 WARNING    server_log_config    Warning record rotating
 ERROR      server_log_config    Error record rotating
 CRITICAL   server_log_config    Critical record rotating
+2020-11-04 04:39:19,345 DEBUG      server_log_config    Critical record rotating + LOG_INFO
+2020-11-04 04:39:19,345 INFO       server_log_config    Info record rotating
+2020-11-04 04:39:19,346 WARNING    server_log_config    Warning record rotating
+2020-11-04 04:39:19,346 ERROR      server_log_config    Error record rotating
+2020-11-04 04:39:19,346 CRITICAL   server_log_config    Critical record rotating
+2020-11-04 04:39:55,660     DEBUG      server_log_config    Critical record rotating + LOG_INFO
+2020-11-04 04:39:55,661     INFO       server_log_config    Info record rotating
+2020-11-04 04:39:55,661     WARNING    server_log_config    Warning record rotating
+2020-11-04 04:39:55,661     ERROR      server_log_config    Error record rotating
+2020-11-04 04:39:55,661     CRITICAL   server_log_config    Critical record rotating
+2020-11-04 05:35:33,779    INFO       each_server          Using default port : 7777
+2020-11-04 05:35:33,784    INFO       each_server          Using local address.
+2020-11-04 05:35:33,784    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-04 05:36:45,953    INFO       each_server          Connection established. Client details: ('127.0.0.1', 33292).
+2020-11-04 05:36:45,954    INFO       each_server          Received message {'command': 'online', 'timestamp': 1604497005.9539695, 'user': {'account_name': 'guest'}} from client ('127.0.0.1', 33292).
+2020-11-04 05:36:45,954    DEBUG      each_server          Parsing message: {'command': 'online', 'timestamp': 1604497005.9539695, 'user': {'account_name': 'guest'}}
+2020-11-04 05:36:45,954    INFO       each_server          Server response to ('127.0.0.1', 33292): {'response': 200}.
+2020-11-04 05:38:05,041    INFO       each_server          Using default port : 7777
+2020-11-04 05:38:05,041    INFO       each_server          Using local address.
+2020-11-04 05:38:05,041    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-04 05:38:09,479    INFO       each_server          Connection established. Client details: ('127.0.0.1', 33294).
+2020-11-04 05:38:09,479    INFO       each_server          Received message {'command': 'online', 'timestamp': 1604497089.479505, 'user': {'account_name': 'guest'}} from client ('127.0.0.1', 33294).
+2020-11-04 05:38:09,479    DEBUG      each_server          Parsing message: {'command': 'online', 'timestamp': 1604497089.479505, 'user': {'account_name': 'guest'}}
+2020-11-04 05:38:09,479    INFO       each_server          Server response to ('127.0.0.1', 33294): {'response': 200}.
+2020-11-04 05:38:09,479    INFO       each_server          Closing connection
+2020-11-04 06:10:33,084    INFO       each_server          Connection established. Client details: ('127.0.0.1', 33338).
+2020-11-04 06:10:33,084    INFO       each_server          Received message {'command': 'online', 'timestamp': 1604499033.0839534, 'user': {'account_name': 'guest'}} from client ('127.0.0.1', 33338).
+2020-11-04 06:10:33,084    DEBUG      each_server          Parsing message: {'command': 'online', 'timestamp': 1604499033.0839534, 'user': {'account_name': 'guest'}}
+2020-11-04 06:10:33,084    INFO       each_server          Server response to ('127.0.0.1', 33338): {'response': 200}.
+2020-11-04 06:10:33,084    INFO       each_server          Closing connection

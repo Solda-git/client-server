@@ -15,12 +15,9 @@ SRV_HANDLER = logging.handlers.TimedRotatingFileHandler(
     when='D'
 )
 
-    # (f'{sys.path[1]+LOG_PATH}srv.log', encoding='utf-8')
-# SRV_HANDLER = logging.FileHandler(f'{sys.path[1]+LOG_PATH}srv.log', encoding='utf-8')
 # SRV_HANDLER = logging.StreamHandler(sys.stdout)
 SRV_HANDLER.setLevel(LOG_LEVEL)
-# SRV_HANDLER = logging.FileHandler(sys.stdout)
-SRV_FORMATTER = logging.Formatter('%(levelname)-10s %(module)-20s %(message)s')
+SRV_FORMATTER = logging.Formatter('%(asctime)-26s %(levelname)-10s %(module)-20s %(message)s')
 SRV_HANDLER.setFormatter(SRV_FORMATTER)
 SRV_LOG.addHandler(SRV_HANDLER)
 SRV_LOG.setLevel(LOG_LEVEL)

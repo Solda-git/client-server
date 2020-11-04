@@ -28,3 +28,10 @@ INFO       client_log_config    Info record
 WARNING    client_log_config    Warning record
 ERROR      client_log_config    Error record
 CRITICAL   client_log_config    Critical record
+INFO       each_client          Port and address assigned to the default values.
+INFO       each_client          Port: 7777 and  address: 127.0.0.1 - assigned.
+INFO       each_client          Client connected to server.
+DEBUG      each_client          Online message for user guest created: {'command': 'online', 'timestamp': 1604499033.0839534, 'user': {'account_name': 'guest'}}.
+INFO       each_client          Message: {'command': 'online', 'timestamp': 1604499033.0839534, 'user': {'account_name': 'guest'}} sent to server.
+DEBUG      each_client          Parsing server message: {'response': 200}.
+INFO       each_client          Received message from the server: Correct message with response 200..
