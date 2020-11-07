@@ -31,3 +31,5 @@ if __name__ == '__main__':
     SRV_LOG.warning('Warning record rotating')
     SRV_LOG.error('Error record rotating')
     SRV_LOG.critical("Critical record rotating")
+
+    # print(SRV_LOG.handlers[0].formatter._fmt)
