@@ -13,9 +13,12 @@ from lib.settings import ONLINE, COMMAND, TIMESTAMP, USER, ACCOUNT_NAME, \
     RESPONSE, ERROR, DEFAULT_IP_ADDRESS, DEFAULT_PORT
 
 import log.config.client_log_config
+from log.deco import log, Log
 
 C_LOGGER = logging.getLogger('each.client.log')
 
+@log
+@Log()
 def make_online(account='guest'):
     """
     function generates request making chat user online
@@ -34,7 +37,8 @@ def make_online(account='guest'):
                    f'created: {online_msg}.')
     return online_msg
 
-
+@log
+@Log()
 def parse_server_answer(message):
     """
     function processes message from the server

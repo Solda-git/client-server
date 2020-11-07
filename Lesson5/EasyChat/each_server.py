@@ -14,8 +14,11 @@ from lib.settings import MAX_CONNECTIONS, COMMAND, TIMESTAMP, USER, ACCOUNT_NAME
 
 import log.config.server_log_config
 
-S_LOGGER = logging.getLogger('each.server.log')
+from log.deco import log, Log
 
+S_LOGGER = logging.getLogger('each.server.log')
+@Log()
+@log
 def parse_message(message):
     """
     function parses incoming message and processes it.
