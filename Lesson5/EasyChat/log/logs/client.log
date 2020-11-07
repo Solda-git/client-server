@@ -213,3 +213,14 @@ INFO       each_client          Message: {'command': 'online', 'timestamp': 1604
 2020-11-07 03:32:37,142    Function parse_server_answer called with parameters (({'response': 200},), {}) from function wrapper with return value Correct message with response 200.. <Logged by Class decorator>
 2020-11-07 03:32:37,142    Function wrapper called with parameters (({'response': 200},), {}) from function main with return value Correct message with response 200.. <Logged by Function decorator>
 INFO       each_client          Received message from the server: Correct message with response 200..
+INFO       each_client          Port and address assigned to the default values.
+INFO       each_client          Port: 7777 and  address: 127.0.0.1 - assigned.
+INFO       each_client          Client connected to server.
+2020-11-07 03:44:41,863    Online message for user guest created: {'command': 'online', 'timestamp': 1604749481.863868, 'user': {'account_name': 'guest'}}.
+2020-11-07 03:44:41,864    Function make_online called with parameters ((), {}) from function wrapper with return value {'command': 'online', 'timestamp': 1604749481.863868, 'user': {'account_name': 'guest'}}. <Logged by Class decorator>
+2020-11-07 03:44:41,864    Function wrapper called with parameters ((), {}) from function main with return value {'command': 'online', 'timestamp': 1604749481.863868, 'user': {'account_name': 'guest'}}. <Logged by Function decorator>
+INFO       each_client          Message: {'command': 'online', 'timestamp': 1604749481.863868, 'user': {'account_name': 'guest'}} sent to server.
+2020-11-07 03:44:41,865    Parsing server message: {'response': 200}.
+2020-11-07 03:44:41,865    Function parse_server_answer called with parameters (({'response': 200},), {}) from function wrapper with return value Correct message with response 200.. <Logged by Class decorator>
+2020-11-07 03:44:41,865    Function wrapper called with parameters (({'response': 200},), {}) from function main with return value Correct message with response 200.. <Logged by Function decorator>
+INFO       each_client          Received message from the server: Correct message with response 200..

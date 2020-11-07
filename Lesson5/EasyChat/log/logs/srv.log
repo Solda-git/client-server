@@ -176,3 +176,13 @@
 2020-11-07 03:32:37,142    Function wrapper called with parameters (({'command': 'online', 'timestamp': 1604748757.1412299, 'user': {'account_name': 'guest'}},), {}) from function main with return value {'response': 200}. <Logged by Class decorator>
 2020-11-07 03:32:37,142    INFO       each_server          Server response to ('127.0.0.1', 56306): {'response': 200}.
 2020-11-07 03:32:37,142    INFO       each_server          Closing connection
+2020-11-07 03:44:37,131    INFO       each_server          Using default port : 7777
+2020-11-07 03:44:37,136    INFO       each_server          Using local address.
+2020-11-07 03:44:37,136    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-07 03:44:41,863    INFO       each_server          Connection established. Client details: ('127.0.0.1', 56336).
+2020-11-07 03:44:41,864    INFO       each_server          Received message {'command': 'online', 'timestamp': 1604749481.863868, 'user': {'account_name': 'guest'}} from client ('127.0.0.1', 56336).
+2020-11-07 03:44:41,864    Parsing message: {'command': 'online', 'timestamp': 1604749481.863868, 'user': {'account_name': 'guest'}}
+2020-11-07 03:44:41,864    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1604749481.863868, 'user': {'account_name': 'guest'}},), {}) from function wrapper with return value {'response': 200}. <Logged by Function decorator>
+2020-11-07 03:44:41,864    Function wrapper called with parameters (({'command': 'online', 'timestamp': 1604749481.863868, 'user': {'account_name': 'guest'}},), {}) from function main with return value {'response': 200}. <Logged by Class decorator>
+2020-11-07 03:44:41,864    INFO       each_server          Server response to ('127.0.0.1', 56336): {'response': 200}.
+2020-11-07 03:44:41,864    INFO       each_server          Closing connection
