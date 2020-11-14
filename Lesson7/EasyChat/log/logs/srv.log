@@ -1,188 +1,93 @@
-2020-11-07 01:14:57,663    DEBUG      server_log_config    Critical record rotating + LOG_INFO
-2020-11-07 01:14:57,664    INFO       server_log_config    Info record rotating
-2020-11-07 01:14:57,664    WARNING    server_log_config    Warning record rotating
-2020-11-07 01:14:57,664    ERROR      server_log_config    Error record rotating
-2020-11-07 01:14:57,664    CRITICAL   server_log_config    Critical record rotating
-2020-11-07 01:29:52,620    INFO       each_server          Using default port : 7777
-2020-11-07 01:29:52,620    INFO       each_server          Using local address.
-2020-11-07 01:29:52,620    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 01:52:58,967    INFO       each_server          Using default port : 7777
-2020-11-07 01:52:58,967    INFO       each_server          Using local address.
-2020-11-07 01:52:58,967    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 01:53:19,689    INFO       each_server          Connection established. Client details: ('127.0.0.1', 56122).
-2020-11-07 01:53:19,690    INFO       each_server          Received message {'command': 'online', 'timestamp': 1604742799.690082, 'user': {'account_name': 'guest'}} from client ('127.0.0.1', 56122).
-2020-11-07 01:56:11,472    INFO       each_server          Using default port : 7777
-2020-11-07 01:56:11,472    INFO       each_server          Using local address.
-2020-11-07 01:56:11,472    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 01:56:17,144    INFO       each_server          Connection established. Client details: ('127.0.0.1', 56128).
-2020-11-07 01:56:17,144    INFO       each_server          Received message {'command': 'online', 'timestamp': 1604742977.1440034, 'user': {'account_name': 'guest'}} from client ('127.0.0.1', 56128).
-2020-11-07 01:57:13,891    INFO       each_server          Using default port : 7777
-2020-11-07 01:57:13,891    INFO       each_server          Using local address.
-2020-11-07 01:57:13,891    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 01:57:29,185    INFO       each_server          Using default port : 7777
-2020-11-07 01:57:29,185    INFO       each_server          Using local address.
-2020-11-07 01:57:29,185    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 01:57:43,683    INFO       each_server          Connection established. Client details: ('127.0.0.1', 56132).
-2020-11-07 01:57:43,683    INFO       each_server          Received message {'command': 'online', 'timestamp': 1604743063.6832395, 'user': {'account_name': 'guest'}} from client ('127.0.0.1', 56132).
-%(asctime)-26s %(message)s
-%(asctime)-26s %(message)s
-2020-11-07 01:58:26,765    INFO       each_server          Using default port : 7777
-2020-11-07 01:58:26,766    INFO       each_server          Using local address.
-2020-11-07 01:58:26,766    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 01:58:28,952    INFO       each_server          Using default port : 7777
-2020-11-07 01:58:28,953    INFO       each_server          Using local address.
-2020-11-07 01:58:28,953    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 01:58:30,155    INFO       each_server          Using default port : 7777
-2020-11-07 01:58:30,156    INFO       each_server          Using local address.
-2020-11-07 01:58:30,156    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 01:58:37,108    INFO       each_server          Using default port : 7777
-2020-11-07 01:58:37,108    INFO       each_server          Using local address.
-2020-11-07 01:58:37,108    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 01:58:48,798    INFO       each_server          Using default port : 7777
-2020-11-07 01:58:48,798    INFO       each_server          Using local address.
-2020-11-07 01:58:48,799    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 01:58:55,816    INFO       each_server          Connection established. Client details: ('127.0.0.1', 56138).
-2020-11-07 01:58:55,816    INFO       each_server          Received message {'command': 'online', 'timestamp': 1604743135.8161654, 'user': {'account_name': 'guest'}} from client ('127.0.0.1', 56138).
-%(asctime)-26s %(message)s
-%(asctime)-26s %(message)s
-%(asctime)-26s %(levelname)-10s %(module)-20s %(message)s
-%(asctime)-26s %(levelname)-10s %(module)-20s %(message)s
-%(asctime)-26s %(levelname)-10s %(module)-20s %(message)s
-%(asctime)-26s %(levelname)-10s %(module)-20s %(message)s
-2020-11-07 02:02:37,763    INFO       each_server          Using default port : 7777
-2020-11-07 02:02:37,763    INFO       each_server          Using local address.
-2020-11-07 02:02:37,763    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 02:02:44,672    INFO       each_server          Connection established. Client details: ('127.0.0.1', 56144).
-2020-11-07 02:02:44,672    INFO       each_server          Received message {'command': 'online', 'timestamp': 1604743364.6722124, 'user': {'account_name': 'guest'}} from client ('127.0.0.1', 56144).
-%(asctime)-26s %(message)s
-%(asctime)-26s %(message)s
-%(asctime)-26s %(message)s
-%(asctime)-26s %(message)s
-%(asctime)-26s %(message)s
-%(asctime)-26s %(message)s
-2020-11-07 02:10:27,418    INFO       each_server          Using default port : 7777
-2020-11-07 02:10:27,418    INFO       each_server          Using local address.
-2020-11-07 02:10:27,419    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 02:10:33,064    INFO       each_server          Connection established. Client details: ('127.0.0.1', 56160).
-2020-11-07 02:10:33,072    INFO       each_server          Received message {'command': 'online', 'timestamp': 1604743833.0718431, 'user': {'account_name': 'guest'}} from client ('127.0.0.1', 56160).
-%(asctime)-26s %(message)s
-%(asctime)-26s %(message)s
-%(asctime)-26s %(message)s
-%(asctime)-26s %(message)s
-2020-11-07 02:15:13,896    INFO       each_server          Using default port : 7777
-2020-11-07 02:15:13,896    INFO       each_server          Using local address.
-2020-11-07 02:15:13,896    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 02:15:17,629    INFO       each_server          Connection established. Client details: ('127.0.0.1', 56166).
-2020-11-07 02:15:17,630    INFO       each_server          Received message {'command': 'online', 'timestamp': 1604744117.6299918, 'user': {'account_name': 'guest'}} from client ('127.0.0.1', 56166).
-2020-11-07 02:15:17,630    Parsing message: {'command': 'online', 'timestamp': 1604744117.6299918, 'user': {'account_name': 'guest'}}
-2020-11-07 02:15:17,630    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1604744117.6299918, 'user': {'account_name': 'guest'}},), {}) from function xxx with return value {'response': 200}
-2020-11-07 02:15:17,630    Server response to ('127.0.0.1', 56166): {'response': 200}.
-2020-11-07 02:15:17,630    Closing connection
-2020-11-07 02:16:17,819    INFO       each_server          Using default port : 7777
-2020-11-07 02:16:17,819    INFO       each_server          Using local address.
-2020-11-07 02:16:17,819    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 02:16:31,571    INFO       each_server          Using default port : 7777
-2020-11-07 02:16:31,573    INFO       each_server          Using local address.
-2020-11-07 02:16:31,573    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 02:16:35,941    INFO       each_server          Connection established. Client details: ('127.0.0.1', 56170).
-2020-11-07 02:16:35,941    INFO       each_server          Received message {'command': 'online', 'timestamp': 1604744195.9411979, 'user': {'account_name': 'guest'}} from client ('127.0.0.1', 56170).
-2020-11-07 02:16:35,941    Parsing message: {'command': 'online', 'timestamp': 1604744195.9411979, 'user': {'account_name': 'guest'}}
-2020-11-07 02:16:35,941    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1604744195.9411979, 'user': {'account_name': 'guest'}},), {}) from function xxx with return value {'response': 200}
-%(asctime)-26s %(levelname)-10s %(module)-20s %(message)s
-%(asctime)-26s %(levelname)-10s %(module)-20s %(message)s
-%(asctime)-26s %(levelname)-10s %(module)-20s %(message)s
-%(asctime)-26s %(levelname)-10s %(module)-20s %(message)s
-2020-11-07 02:17:15,318    INFO       each_server          Using default port : 7777
-2020-11-07 02:17:15,318    INFO       each_server          Using local address.
-2020-11-07 02:17:15,318    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 02:17:21,761    INFO       each_server          Using default port : 7777
-2020-11-07 02:17:21,761    INFO       each_server          Using local address.
-2020-11-07 02:17:21,761    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 02:17:26,447    INFO       each_server          Using default port : 7777
-2020-11-07 02:17:26,447    INFO       each_server          Using local address.
-2020-11-07 02:17:26,447    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 02:17:37,001    INFO       each_server          Using default port : 7777
-2020-11-07 02:17:37,002    INFO       each_server          Using local address.
-2020-11-07 02:17:37,002    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 02:17:53,139    INFO       each_server          Using default port : 7777
-2020-11-07 02:17:53,144    INFO       each_server          Using local address.
-2020-11-07 02:17:53,145    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 02:18:02,243    INFO       each_server          Using default port : 7777
-2020-11-07 02:18:02,243    INFO       each_server          Using local address.
-2020-11-07 02:18:02,243    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 02:18:35,065    INFO       each_server          Using default port : 7777
-2020-11-07 02:18:35,065    INFO       each_server          Using local address.
-2020-11-07 02:18:35,066    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 02:18:41,687    INFO       each_server          Connection established. Client details: ('127.0.0.1', 56204).
-2020-11-07 02:18:41,688    INFO       each_server          Received message {'command': 'online', 'timestamp': 1604744321.6871908, 'user': {'account_name': 'guest'}} from client ('127.0.0.1', 56204).
-2020-11-07 02:18:41,688    Parsing message: {'command': 'online', 'timestamp': 1604744321.6871908, 'user': {'account_name': 'guest'}}
-2020-11-07 02:18:41,688    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1604744321.6871908, 'user': {'account_name': 'guest'}},), {}) from function xxx with return value {'response': 200}
-2020-11-07 02:18:41,688    INFO       each_server          Server response to ('127.0.0.1', 56204): {'response': 200}.
-2020-11-07 02:18:41,688    INFO       each_server          Closing connection
-2020-11-07 02:21:25,869    INFO       each_server          Using default port : 7777
-2020-11-07 02:21:25,869    INFO       each_server          Using local address.
-2020-11-07 02:21:25,869    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 02:21:33,418    INFO       each_server          Connection established. Client details: ('127.0.0.1', 56212).
-2020-11-07 02:21:33,419    INFO       each_server          Received message {'command': 'online', 'timestamp': 1604744493.4188306, 'user': {'account_name': 'guest'}} from client ('127.0.0.1', 56212).
-2020-11-07 02:21:33,419    Parsing message: {'command': 'online', 'timestamp': 1604744493.4188306, 'user': {'account_name': 'guest'}}
-2020-11-07 02:21:33,419    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1604744493.4188306, 'user': {'account_name': 'guest'}},), {}) from function xxx with return value {'response': 200}
-2020-11-07 02:21:33,419    INFO       each_server          Server response to ('127.0.0.1', 56212): {'response': 200}.
-2020-11-07 02:21:33,419    INFO       each_server          Closing connection
-2020-11-07 02:50:39,210    INFO       each_server          Connection established. Client details: ('127.0.0.1', 56248).
-2020-11-07 02:50:39,211    INFO       each_server          Received message {'command': 'online', 'timestamp': 1604746239.2107575, 'user': {'account_name': 'guest'}} from client ('127.0.0.1', 56248).
-2020-11-07 02:50:39,211    Parsing message: {'command': 'online', 'timestamp': 1604746239.2107575, 'user': {'account_name': 'guest'}}
-2020-11-07 02:50:39,211    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1604746239.2107575, 'user': {'account_name': 'guest'}},), {}) from function xxx with return value {'response': 200}
-2020-11-07 02:50:39,211    INFO       each_server          Server response to ('127.0.0.1', 56248): {'response': 200}.
-2020-11-07 02:50:39,211    INFO       each_server          Closing connection
-2020-11-07 02:51:58,477    INFO       each_server          Using default port : 7777
-2020-11-07 02:51:58,477    INFO       each_server          Using local address.
-2020-11-07 02:51:58,477    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 02:52:07,531    INFO       each_server          Connection established. Client details: ('127.0.0.1', 56252).
-2020-11-07 02:52:07,531    INFO       each_server          Received message {'command': 'online', 'timestamp': 1604746327.5312262, 'user': {'account_name': 'guest'}} from client ('127.0.0.1', 56252).
-2020-11-07 02:52:07,531    Parsing message: {'command': 'online', 'timestamp': 1604746327.5312262, 'user': {'account_name': 'guest'}}
-2020-11-07 02:52:07,531    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1604746327.5312262, 'user': {'account_name': 'guest'}},), {}) from function main with return value {'response': 200}
-2020-11-07 02:52:07,531    INFO       each_server          Server response to ('127.0.0.1', 56252): {'response': 200}.
-2020-11-07 02:52:07,532    INFO       each_server          Closing connection
-2020-11-07 03:23:15,126    INFO       each_server          Using default port : 7777
-2020-11-07 03:23:15,126    INFO       each_server          Using local address.
-2020-11-07 03:23:15,126    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 03:27:48,893    INFO       each_server          Using default port : 7777
-2020-11-07 03:27:48,893    INFO       each_server          Using local address.
-2020-11-07 03:27:48,893    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 03:27:56,235    INFO       each_server          Connection established. Client details: ('127.0.0.1', 56280).
-2020-11-07 03:27:56,386    ERROR      each_server          Incorrect client message received. Can't decode message from ('127.0.0.1', 56280).
-2020-11-07 03:28:13,982    INFO       each_server          Connection established. Client details: ('127.0.0.1', 56282).
-2020-11-07 03:28:14,116    ERROR      each_server          Incorrect client message received. Can't decode message from ('127.0.0.1', 56282).
-2020-11-07 03:28:33,595    INFO       each_server          Using default port : 7777
-2020-11-07 03:28:33,595    INFO       each_server          Using local address.
-2020-11-07 03:28:33,595    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 03:28:38,178    INFO       each_server          Connection established. Client details: ('127.0.0.1', 56284).
-2020-11-07 03:28:38,315    ERROR      each_server          Incorrect client message received. Can't decode message from ('127.0.0.1', 56284).
-2020-11-07 03:30:08,378    INFO       each_server          Connection established. Client details: ('127.0.0.1', 56288).
-2020-11-07 03:30:08,378    INFO       each_server          Received message {'command': 'online', 'timestamp': 1604748608.378068, 'user': {'account_name': 'guest'}} from client ('127.0.0.1', 56288).
-2020-11-07 03:30:19,892    INFO       each_server          Using default port : 7777
-2020-11-07 03:30:19,892    INFO       each_server          Using local address.
-2020-11-07 03:30:19,892    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 03:30:35,143    INFO       each_server          Using default port : 7777
-2020-11-07 03:30:35,144    INFO       each_server          Using local address.
-2020-11-07 03:30:35,144    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 03:32:31,619    INFO       each_server          Using default port : 7777
-2020-11-07 03:32:31,625    INFO       each_server          Using local address.
-2020-11-07 03:32:31,625    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 03:32:37,141    INFO       each_server          Connection established. Client details: ('127.0.0.1', 56306).
-2020-11-07 03:32:37,141    INFO       each_server          Received message {'command': 'online', 'timestamp': 1604748757.1412299, 'user': {'account_name': 'guest'}} from client ('127.0.0.1', 56306).
-2020-11-07 03:32:37,141    Parsing message: {'command': 'online', 'timestamp': 1604748757.1412299, 'user': {'account_name': 'guest'}}
-2020-11-07 03:32:37,142    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1604748757.1412299, 'user': {'account_name': 'guest'}},), {}) from function wrapper with return value {'response': 200}. <Logged by Function decorator>
-2020-11-07 03:32:37,142    Function wrapper called with parameters (({'command': 'online', 'timestamp': 1604748757.1412299, 'user': {'account_name': 'guest'}},), {}) from function main with return value {'response': 200}. <Logged by Class decorator>
-2020-11-07 03:32:37,142    INFO       each_server          Server response to ('127.0.0.1', 56306): {'response': 200}.
-2020-11-07 03:32:37,142    INFO       each_server          Closing connection
-2020-11-07 03:44:37,131    INFO       each_server          Using default port : 7777
-2020-11-07 03:44:37,136    INFO       each_server          Using local address.
-2020-11-07 03:44:37,136    INFO       each_server          Starting server on ip-address: , port: 7777
-2020-11-07 03:44:41,863    INFO       each_server          Connection established. Client details: ('127.0.0.1', 56336).
-2020-11-07 03:44:41,864    INFO       each_server          Received message {'command': 'online', 'timestamp': 1604749481.863868, 'user': {'account_name': 'guest'}} from client ('127.0.0.1', 56336).
-2020-11-07 03:44:41,864    Parsing message: {'command': 'online', 'timestamp': 1604749481.863868, 'user': {'account_name': 'guest'}}
-2020-11-07 03:44:41,864    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1604749481.863868, 'user': {'account_name': 'guest'}},), {}) from function wrapper with return value {'response': 200}. <Logged by Function decorator>
-2020-11-07 03:44:41,864    Function wrapper called with parameters (({'command': 'online', 'timestamp': 1604749481.863868, 'user': {'account_name': 'guest'}},), {}) from function main with return value {'response': 200}. <Logged by Class decorator>
-2020-11-07 03:44:41,864    INFO       each_server          Server response to ('127.0.0.1', 56336): {'response': 200}.
-2020-11-07 03:44:41,864    INFO       each_server          Closing connection
+2020-11-14 07:25:41,373    Function parse_args called with parameters ((), {}) from function main with return value ('', 7777). <Logged by Function decorator>
+2020-11-14 07:25:41,373    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-14 07:26:09,610    INFO       each_server          Connection established. Client details: ('127.0.0.1', 41844).
+2020-11-14 07:26:09,610    INFO       each_server          Connection with the client host ('127.0.0.1', 41844) established
+2020-11-14 07:26:09,611    Parsing message: {'command': 'online', 'timestamp': 1605367569.610142, 'user': {'account_name': 'Guest'}}
+2020-11-14 07:26:09,611    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1605367569.610142, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41844)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-14 07:26:15,359    INFO       each_server          Connection established. Client details: ('127.0.0.1', 41846).
+2020-11-14 07:26:15,359    INFO       each_server          Connection with the client host ('127.0.0.1', 41846) established
+2020-11-14 07:26:15,359    Parsing message: {'command': 'online', 'timestamp': 1605367575.3590114, 'user': {'account_name': 'Guest'}}
+2020-11-14 07:26:15,359    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1605367575.3590114, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41846)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-14 07:26:33,898    Parsing message: {'command': 'message', 'timestamp': 1605367593.6830866, 'account_name': 'Guest', 'message_text': 'test message'}
+2020-11-14 07:26:33,899    Incorrect message {message}. Bad request.
+2020-11-14 07:26:33,899    Function parse_message called with parameters (({'command': 'message', 'timestamp': 1605367593.6830866, 'account_name': 'Guest', 'message_text': 'test message'}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41844)>), {}) from function main with return value {'response': 400, 'error': 'Bad request'}. <Logged by Function decorator>
+2020-11-14 07:26:48,430    INFO       each_server          Client ('127.0.0.1', 41844) has disconnected.
+2020-11-14 07:26:54,443    INFO       each_server          Client ('127.0.0.1', 41846) has disconnected.
+2020-11-14 07:36:12,681    Function parse_args called with parameters ((), {}) from function main with return value ('', 7777). <Logged by Function decorator>
+2020-11-14 07:36:12,681    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-14 07:36:21,452    INFO       each_server          Connection established. Client details: ('127.0.0.1', 41868).
+2020-11-14 07:36:21,452    INFO       each_server          Connection with the client host ('127.0.0.1', 41868) established
+2020-11-14 07:36:21,452    Parsing message: {'command': 'online', 'timestamp': 1605368181.4519322, 'user': {'account_name': 'Guest'}}
+2020-11-14 07:36:21,453    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1605368181.4519322, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41868)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-14 07:36:29,825    INFO       each_server          Connection established. Client details: ('127.0.0.1', 41870).
+2020-11-14 07:36:29,825    INFO       each_server          Connection with the client host ('127.0.0.1', 41870) established
+2020-11-14 07:36:29,825    Parsing message: {'command': 'online', 'timestamp': 1605368189.8252935, 'user': {'account_name': 'Guest'}}
+2020-11-14 07:36:29,826    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1605368189.8252935, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41870)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-14 07:37:01,394    Parsing message: {'command': 'message', 'timestamp': 1605368221.1646407, 'account_name': 'Guest', 'message_text': 'test'}
+2020-11-14 07:37:01,395    Incorrect message {message}. Bad request.
+2020-11-14 07:37:01,395    Function parse_message called with parameters (({'command': 'message', 'timestamp': 1605368221.1646407, 'account_name': 'Guest', 'message_text': 'test'}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41868)>), {}) from function main with return value {'response': 400, 'error': 'Bad request'}. <Logged by Function decorator>
+2020-11-14 07:37:24,439    Parsing message: {'command': 'message', 'timestamp': 1605368243.981307, 'account_name': 'Guest', 'message_text': 'qwdewe'}
+2020-11-14 07:37:24,440    Incorrect message {message}. Bad request.
+2020-11-14 07:37:24,440    Function parse_message called with parameters (({'command': 'message', 'timestamp': 1605368243.981307, 'account_name': 'Guest', 'message_text': 'qwdewe'}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41868)>), {}) from function main with return value {'response': 400, 'error': 'Bad request'}. <Logged by Function decorator>
+2020-11-14 07:38:49,764    Function parse_args called with parameters ((), {}) from function main with return value ('', 7777). <Logged by Function decorator>
+2020-11-14 07:38:49,764    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-14 07:38:58,290    Function parse_args called with parameters ((), {}) from function main with return value ('', 7777). <Logged by Function decorator>
+2020-11-14 07:38:58,290    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-14 07:39:14,237    Function parse_args called with parameters ((), {}) from function main with return value ('', 7777). <Logged by Function decorator>
+2020-11-14 07:39:14,238    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-14 07:39:18,939    INFO       each_server          Connection established. Client details: ('127.0.0.1', 41876).
+2020-11-14 07:39:18,940    INFO       each_server          Connection with the client host ('127.0.0.1', 41876) established
+2020-11-14 07:39:19,440    Parsing message: {'command': 'online', 'timestamp': 1605368358.9402971, 'user': {'account_name': 'Guest'}}
+2020-11-14 07:39:19,441    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1605368358.9402971, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41876)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-14 07:39:27,460    INFO       each_server          Connection established. Client details: ('127.0.0.1', 41878).
+2020-11-14 07:39:27,460    INFO       each_server          Connection with the client host ('127.0.0.1', 41878) established
+2020-11-14 07:39:27,962    Parsing message: {'command': 'online', 'timestamp': 1605368367.461181, 'user': {'account_name': 'Guest'}}
+2020-11-14 07:39:27,963    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1605368367.461181, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41878)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-14 07:39:36,482    Parsing message: {'command': 'message', 'timestamp': 1605368375.9867325, 'account_name': 'Guest', 'message_text': '123'}
+2020-11-14 07:39:36,483    Incorrect message {message}. Bad request.
+2020-11-14 07:39:36,483    Function parse_message called with parameters (({'command': 'message', 'timestamp': 1605368375.9867325, 'account_name': 'Guest', 'message_text': '123'}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41878)>), {}) from function main with return value {'response': 400, 'error': 'Bad request'}. <Logged by Function decorator>
+2020-11-14 07:42:04,655    Function parse_args called with parameters ((), {}) from function main with return value ('', 7777). <Logged by Function decorator>
+2020-11-14 07:42:04,655    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-14 07:42:24,189    Function parse_args called with parameters ((), {}) from function main with return value ('', 7777). <Logged by Function decorator>
+2020-11-14 07:42:24,190    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-14 07:42:29,505    Function parse_args called with parameters ((), {}) from function main with return value ('', 7777). <Logged by Function decorator>
+2020-11-14 07:42:29,505    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-14 07:42:38,181    Function parse_args called with parameters ((), {}) from function main with return value ('', 7777). <Logged by Function decorator>
+2020-11-14 07:42:38,181    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-14 07:42:47,692    Function parse_args called with parameters ((), {}) from function main with return value ('', 7777). <Logged by Function decorator>
+2020-11-14 07:42:47,693    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-14 07:42:59,398    Function parse_args called with parameters ((), {}) from function main with return value ('', 7777). <Logged by Function decorator>
+2020-11-14 07:42:59,399    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-14 07:43:00,512    Function parse_args called with parameters ((), {}) from function main with return value ('', 7777). <Logged by Function decorator>
+2020-11-14 07:43:00,513    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-14 07:43:01,510    Function parse_args called with parameters ((), {}) from function main with return value ('', 7777). <Logged by Function decorator>
+2020-11-14 07:43:01,511    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-14 07:43:30,108    Function parse_args called with parameters ((), {}) from function main with return value ('', 7777). <Logged by Function decorator>
+2020-11-14 07:43:30,116    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-14 07:43:49,989    INFO       each_server          Connection established. Client details: ('127.0.0.1', 41914).
+2020-11-14 07:43:49,989    INFO       each_server          Connection with the client host ('127.0.0.1', 41914) established
+2020-11-14 07:43:49,989    Parsing message: {'command': 'online', 'timestamp': 1605368629.9885993, 'user': {'account_name': 'Guest'}}
+2020-11-14 07:43:49,989    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1605368629.9885993, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41914)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-14 07:43:55,881    INFO       each_server          Connection established. Client details: ('127.0.0.1', 41916).
+2020-11-14 07:43:55,881    INFO       each_server          Connection with the client host ('127.0.0.1', 41916) established
+2020-11-14 07:43:56,383    Parsing message: {'command': 'online', 'timestamp': 1605368635.882052, 'user': {'account_name': 'Guest'}}
+2020-11-14 07:43:56,385    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1605368635.882052, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41916)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-14 07:44:13,419    Parsing message: {'command': 'message', 'timestamp': 1605368653.1247516, 'account_name': 'Guest', 'message_text': '123'}
+2020-11-14 07:44:13,420    Incorrect message {message}. Bad request.
+2020-11-14 07:44:13,420    Function parse_message called with parameters (({'command': 'message', 'timestamp': 1605368653.1247516, 'account_name': 'Guest', 'message_text': '123'}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41916)>), {}) from function main with return value {'response': 400, 'error': 'Bad request'}. <Logged by Function decorator>
+2020-11-14 07:44:17,929    INFO       each_server          Client ('127.0.0.1', 41916) has disconnected.
+2020-11-14 07:44:20,434    INFO       each_server          Client ('127.0.0.1', 41914) has disconnected.
+2020-11-14 07:48:50,211    Function parse_args called with parameters ((), {}) from function main with return value ('', 7777). <Logged by Function decorator>
+2020-11-14 07:48:50,211    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-14 07:48:58,804    INFO       each_server          Connection established. Client details: ('127.0.0.1', 41930).
+2020-11-14 07:48:58,804    INFO       each_server          Connection with the client host ('127.0.0.1', 41930) established
+2020-11-14 07:48:59,305    Parsing message: {'command': 'online', 'timestamp': 1605368938.8050463, 'user': {'account_name': 'Guest'}}
+2020-11-14 07:48:59,307    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1605368938.8050463, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41930)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-14 07:49:05,872    INFO       each_server          Connection established. Client details: ('127.0.0.1', 41932).
+2020-11-14 07:49:05,873    INFO       each_server          Connection with the client host ('127.0.0.1', 41932) established
+2020-11-14 07:49:06,374    Parsing message: {'command': 'online', 'timestamp': 1605368945.8731544, 'user': {'account_name': 'Guest'}}
+2020-11-14 07:49:06,375    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1605368945.8731544, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41932)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-14 07:49:34,432    Parsing message: {'command': 'message', 'timestamp': 1605368974.0696876, 'account_name': 'Guest', 'message_text': 'Привет'}
+2020-11-14 07:49:34,432    Function parse_message called with parameters (({'command': 'message', 'timestamp': 1605368974.0696876, 'account_name': 'Guest', 'message_text': 'Привет'}, [('Guest', 'Привет')], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41932)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-14 13:53:18,097    Parsing message: {'command': 'message', 'timestamp': 1605390797.799761, 'account_name': 'Guest', 'message_text': 'ekfjewpfj'}
+2020-11-14 13:53:18,098    Function parse_message called with parameters (({'command': 'message', 'timestamp': 1605390797.799761, 'account_name': 'Guest', 'message_text': 'ekfjewpfj'}, [('Guest', 'ekfjewpfj')], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41932)>), {}) from function main with return value None. <Logged by Function decorator>

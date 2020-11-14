@@ -18,6 +18,8 @@ while True:
             )
     if action == 'r':
         PROCESSES.append(Process(target=run_proc, args=(SERVER,)))
+        PROCESSES[0].start()
+        PROCESSES[0].join()
         for i in range(4):
             if i < 2:
                 PROCESSES.insert(0, Process(target=run_proc, args=(CLIENT_READ,)))
@@ -25,8 +27,8 @@ while True:
                 PROCESSES.insert(0, Process(target=run_proc, args=(CLIENT_WRITE,)))
 
     elif action == 'q':
-        for process in PROCESSES:
-            process.terminate()
+        # for process in PROCESSES:
+        #     process.terminate()
         break
 
 

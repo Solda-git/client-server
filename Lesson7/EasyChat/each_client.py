@@ -88,7 +88,7 @@ def create_message(each_socket, account_name='Guest'):
     """
     function creates message for the client
     """
-    message_text = input('Input message text or \'q\' for exit.')
+    message_text = input('Input message text or \'q\' for exit. \n')
     if message_text == 'q':
         each_socket.close()
         C_LOGGER.info(f'User {each_socket} closed the connection.')
@@ -96,7 +96,7 @@ def create_message(each_socket, account_name='Guest'):
         exit(0)
     message = {
         COMMAND: MESSAGE,
-        TIMESTAMP: time.time(),
+        TIMESTAMP: time(),
         ACCOUNT_NAME: account_name,
         MESSAGE_TEXT: message_text
     }
@@ -111,7 +111,7 @@ def recv_message(message):
     if COMMAND in message and message[COMMAND] == MESSAGE and \
         SENDER in message and MESSAGE_TEXT in message:
         info = f'Message {message[MESSAGE_TEXT]} received from {message[SENDER]}'
-        print(inf)
+        print(info)
         C_LOGGER.info(info)
     else:
         C_LOGGER.error(f'Incorrect message {message}')
