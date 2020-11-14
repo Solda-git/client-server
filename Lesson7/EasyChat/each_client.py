@@ -23,7 +23,7 @@ RECV_MODE = 'recv'
 
 @log
 # @Log()
-def make_online(account='guest'):
+def make_online(account='Guest'):
     """
     function generates request making chat user online
 
