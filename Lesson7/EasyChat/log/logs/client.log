@@ -170,3 +170,119 @@ INFO       each_client          Received message from the server: Correct messag
 2020-11-14 13:53:18,099    Message ekfjewpfj received from Guest
 2020-11-14 13:53:18,099    Function recv_message called with parameters (({'command': 'message', 'sender': 'Guest', 'timestamp': 1605390798.099293, 'message_text': 'ekfjewpfj'},), {}) from function main with return value None. <Logged by Function decorator>
 2020-11-14 13:53:23,316    User <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0> closed the connection.
+2020-11-15 01:46:06,977    Function parse_args called with parameters ((), {}) from function main with return value ('127.0.0.1', 7777, 'recv'). <Logged by Function decorator>
+INFO       each_client          Port: 7777 and  address: 127.0.0.1 - assigned.
+CRITICAL   each_client          Can't connect to server.
+2020-11-15 01:46:06,993    Function parse_args called with parameters ((), {}) from function main with return value ('127.0.0.1', 7777, 'send'). <Logged by Function decorator>
+INFO       each_client          Port: 7777 and  address: 127.0.0.1 - assigned.
+CRITICAL   each_client          Can't connect to server.
+2020-11-15 01:46:07,003    Function parse_args called with parameters ((), {}) from function main with return value ('127.0.0.1', 7777, 'recv'). <Logged by Function decorator>
+INFO       each_client          Port: 7777 and  address: 127.0.0.1 - assigned.
+CRITICAL   each_client          Can't connect to server.
+2020-11-15 01:46:07,117    Function parse_args called with parameters ((), {}) from function main with return value ('127.0.0.1', 7777, 'send'). <Logged by Function decorator>
+INFO       each_client          Port: 7777 and  address: 127.0.0.1 - assigned.
+CRITICAL   each_client          Can't connect to server.
+2020-11-15 01:49:35,198    Function parse_args called with parameters ((), {}) from function main with return value ('127.0.0.1', 7777, 'recv'). <Logged by Function decorator>
+INFO       each_client          Port: 7777 and  address: 127.0.0.1 - assigned.
+CRITICAL   each_client          Can't connect to server.
+2020-11-15 01:49:35,222    Function parse_args called with parameters ((), {}) from function main with return value ('127.0.0.1', 7777, 'send'). <Logged by Function decorator>
+INFO       each_client          Port: 7777 and  address: 127.0.0.1 - assigned.
+CRITICAL   each_client          Can't connect to server.
+2020-11-15 01:49:35,227    Function parse_args called with parameters ((), {}) from function main with return value ('127.0.0.1', 7777, 'recv'). <Logged by Function decorator>
+INFO       each_client          Port: 7777 and  address: 127.0.0.1 - assigned.
+CRITICAL   each_client          Can't connect to server.
+2020-11-15 01:49:35,265    Function parse_args called with parameters ((), {}) from function main with return value ('127.0.0.1', 7777, 'send'). <Logged by Function decorator>
+INFO       each_client          Port: 7777 and  address: 127.0.0.1 - assigned.
+CRITICAL   each_client          Can't connect to server.
+2020-11-15 01:50:33,236    Function parse_args called with parameters ((), {}) from function main with return value ('127.0.0.1', 7777, 'send'). <Logged by Function decorator>
+INFO       each_client          Port: 7777 and  address: 127.0.0.1 - assigned.
+INFO       each_client          Client connected to server.
+2020-11-15 01:50:33,237    Online message for user Guest created: {'command': 'online', 'timestamp': 1605433833.2373176, 'user': {'account_name': 'Guest'}}.
+2020-11-15 01:50:33,237    Function make_online called with parameters ((), {}) from function main with return value {'command': 'online', 'timestamp': 1605433833.2373176, 'user': {'account_name': 'Guest'}}. <Logged by Function decorator>
+INFO       each_client          Message: {'command': 'online', 'timestamp': 1605433833.2373176, 'user': {'account_name': 'Guest'}} sent to server.
+2020-11-15 01:50:33,239    Parsing server message: {'response': 200}.
+2020-11-15 01:50:33,239    Function parse_server_answer called with parameters (({'response': 200},), {}) from function main with return value Correct message with response 200.. <Logged by Function decorator>
+INFO       each_client          Received message from the server: Correct message with response 200..
+2020-11-15 01:50:33,253    Function parse_args called with parameters ((), {}) from function main with return value ('127.0.0.1', 7777, 'recv'). <Logged by Function decorator>
+INFO       each_client          Port: 7777 and  address: 127.0.0.1 - assigned.
+INFO       each_client          Client connected to server.
+2020-11-15 01:50:33,254    Online message for user Guest created: {'command': 'online', 'timestamp': 1605433833.2541912, 'user': {'account_name': 'Guest'}}.
+2020-11-15 01:50:33,254    Function make_online called with parameters ((), {}) from function main with return value {'command': 'online', 'timestamp': 1605433833.2541912, 'user': {'account_name': 'Guest'}}. <Logged by Function decorator>
+INFO       each_client          Message: {'command': 'online', 'timestamp': 1605433833.2541912, 'user': {'account_name': 'Guest'}} sent to server.
+2020-11-15 01:50:33,261    Function parse_args called with parameters ((), {}) from function main with return value ('127.0.0.1', 7777, 'recv'). <Logged by Function decorator>
+INFO       each_client          Port: 7777 and  address: 127.0.0.1 - assigned.
+INFO       each_client          Client connected to server.
+2020-11-15 01:50:33,262    Online message for user Guest created: {'command': 'online', 'timestamp': 1605433833.262117, 'user': {'account_name': 'Guest'}}.
+2020-11-15 01:50:33,262    Function make_online called with parameters ((), {}) from function main with return value {'command': 'online', 'timestamp': 1605433833.262117, 'user': {'account_name': 'Guest'}}. <Logged by Function decorator>
+INFO       each_client          Message: {'command': 'online', 'timestamp': 1605433833.262117, 'user': {'account_name': 'Guest'}} sent to server.
+2020-11-15 01:50:33,263    Parsing server message: {'response': 200}.
+2020-11-15 01:50:33,263    Parsing server message: {'response': 200}.
+2020-11-15 01:50:33,263    Function parse_server_answer called with parameters (({'response': 200},), {}) from function main with return value Correct message with response 200.. <Logged by Function decorator>
+INFO       each_client          Received message from the server: Correct message with response 200..
+2020-11-15 01:50:33,263    Function parse_server_answer called with parameters (({'response': 200},), {}) from function main with return value Correct message with response 200.. <Logged by Function decorator>
+INFO       each_client          Received message from the server: Correct message with response 200..
+2020-11-15 01:50:43,467    Message {'command': 'message', 'timestamp': 1605433843.4677267, 'account_name': 'Guest', 'message_text': '234'} prepared.
+2020-11-15 01:50:43,468    Function create_message called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42072), raddr=('127.0.0.1', 7777)>,), {}) from function main with return value {'command': 'message', 'timestamp': 1605433843.4677267, 'account_name': 'Guest', 'message_text': '234'}. <Logged by Function decorator>
+2020-11-15 01:50:43,788    Message 234 received from Guest
+2020-11-15 01:50:43,789    Function recv_message called with parameters (({'command': 'message', 'sender': 'Guest', 'timestamp': 1605433843.7887583, 'message_text': '234'},), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-15 01:50:43,789    Message 234 received from Guest
+2020-11-15 01:50:43,789    Function recv_message called with parameters (({'command': 'message', 'sender': 'Guest', 'timestamp': 1605433843.7887583, 'message_text': '234'},), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-15 01:50:53,740    Message {'command': 'message', 'timestamp': 1605433853.740358, 'account_name': 'Guest', 'message_text': '986'} prepared.
+2020-11-15 01:50:53,740    Function create_message called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42072), raddr=('127.0.0.1', 7777)>,), {}) from function main with return value {'command': 'message', 'timestamp': 1605433853.740358, 'account_name': 'Guest', 'message_text': '986'}. <Logged by Function decorator>
+2020-11-15 01:50:53,811    Message 986 received from Guest
+2020-11-15 01:50:53,812    Function recv_message called with parameters (({'command': 'message', 'sender': 'Guest', 'timestamp': 1605433853.8113992, 'message_text': '986'},), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-15 01:50:53,812    Message 986 received from Guest
+2020-11-15 01:50:53,812    Function recv_message called with parameters (({'command': 'message', 'sender': 'Guest', 'timestamp': 1605433853.8113992, 'message_text': '986'},), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-15 01:50:57,572    User <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0> closed the connection.
+2020-11-15 01:50:57,630    Function parse_args called with parameters ((), {}) from function main with return value ('127.0.0.1', 7777, 'send'). <Logged by Function decorator>
+INFO       each_client          Port: 7777 and  address: 127.0.0.1 - assigned.
+INFO       each_client          Client connected to server.
+2020-11-15 01:50:57,630    Online message for user Guest created: {'command': 'online', 'timestamp': 1605433857.630983, 'user': {'account_name': 'Guest'}}.
+2020-11-15 01:50:57,631    Function make_online called with parameters ((), {}) from function main with return value {'command': 'online', 'timestamp': 1605433857.630983, 'user': {'account_name': 'Guest'}}. <Logged by Function decorator>
+INFO       each_client          Message: {'command': 'online', 'timestamp': 1605433857.630983, 'user': {'account_name': 'Guest'}} sent to server.
+2020-11-15 01:55:00,432    Function parse_args called with parameters ((), {}) from function main with return value ('127.0.0.1', 7777, 'recv'). <Logged by Function decorator>
+INFO       each_client          Port: 7777 and  address: 127.0.0.1 - assigned.
+CRITICAL   each_client          Can't connect to server.
+2020-11-15 01:55:04,185    Function parse_args called with parameters ((), {}) from function main with return value ('127.0.0.1', 7777, 'recv'). <Logged by Function decorator>
+INFO       each_client          Port: 7777 and  address: 127.0.0.1 - assigned.
+CRITICAL   each_client          Can't connect to server.
+2020-11-15 01:55:26,804    Function parse_args called with parameters ((), {}) from function main with return value ('127.0.0.1', 7777, 'send'). <Logged by Function decorator>
+INFO       each_client          Port: 7777 and  address: 127.0.0.1 - assigned.
+INFO       each_client          Client connected to server.
+2020-11-15 01:55:26,805    Online message for user Guest created: {'command': 'online', 'timestamp': 1605434126.805281, 'user': {'account_name': 'Guest'}}.
+2020-11-15 01:55:26,805    Function make_online called with parameters ((), {}) from function main with return value {'command': 'online', 'timestamp': 1605434126.805281, 'user': {'account_name': 'Guest'}}. <Logged by Function decorator>
+INFO       each_client          Message: {'command': 'online', 'timestamp': 1605434126.805281, 'user': {'account_name': 'Guest'}} sent to server.
+2020-11-15 01:55:26,829    Function parse_args called with parameters ((), {}) from function main with return value ('127.0.0.1', 7777, 'recv'). <Logged by Function decorator>
+INFO       each_client          Port: 7777 and  address: 127.0.0.1 - assigned.
+INFO       each_client          Client connected to server.
+2020-11-15 01:55:26,829    Online message for user Guest created: {'command': 'online', 'timestamp': 1605434126.8299644, 'user': {'account_name': 'Guest'}}.
+2020-11-15 01:55:26,830    Function make_online called with parameters ((), {}) from function main with return value {'command': 'online', 'timestamp': 1605434126.8299644, 'user': {'account_name': 'Guest'}}. <Logged by Function decorator>
+INFO       each_client          Message: {'command': 'online', 'timestamp': 1605434126.8299644, 'user': {'account_name': 'Guest'}} sent to server.
+2020-11-15 01:55:26,830    Parsing server message: {'response': 200}.
+2020-11-15 01:55:26,830    Function parse_server_answer called with parameters (({'response': 200},), {}) from function main with return value Correct message with response 200.. <Logged by Function decorator>
+INFO       each_client          Received message from the server: Correct message with response 200..
+2020-11-15 01:55:26,830    Parsing server message: {'response': 200}.
+2020-11-15 01:55:26,830    Function parse_server_answer called with parameters (({'response': 200},), {}) from function main with return value Correct message with response 200.. <Logged by Function decorator>
+INFO       each_client          Received message from the server: Correct message with response 200..
+2020-11-15 01:55:26,833    Function parse_args called with parameters ((), {}) from function main with return value ('127.0.0.1', 7777, 'recv'). <Logged by Function decorator>
+INFO       each_client          Port: 7777 and  address: 127.0.0.1 - assigned.
+INFO       each_client          Client connected to server.
+2020-11-15 01:55:26,833    Online message for user Guest created: {'command': 'online', 'timestamp': 1605434126.8336089, 'user': {'account_name': 'Guest'}}.
+2020-11-15 01:55:26,833    Function make_online called with parameters ((), {}) from function main with return value {'command': 'online', 'timestamp': 1605434126.8336089, 'user': {'account_name': 'Guest'}}. <Logged by Function decorator>
+INFO       each_client          Message: {'command': 'online', 'timestamp': 1605434126.8336089, 'user': {'account_name': 'Guest'}} sent to server.
+2020-11-15 01:55:27,336    Parsing server message: {'response': 200}.
+2020-11-15 01:55:27,336    Function parse_server_answer called with parameters (({'response': 200},), {}) from function main with return value Correct message with response 200.. <Logged by Function decorator>
+INFO       each_client          Received message from the server: Correct message with response 200..
+2020-11-15 01:55:30,382    Message {'command': 'message', 'timestamp': 1605434130.3819711, 'account_name': 'Guest', 'message_text': '123'} prepared.
+2020-11-15 01:55:30,382    Function create_message called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42120), raddr=('127.0.0.1', 7777)>,), {}) from function main with return value {'command': 'message', 'timestamp': 1605434130.3819711, 'account_name': 'Guest', 'message_text': '123'}. <Logged by Function decorator>
+2020-11-15 01:55:30,845    Message 123 received from Guest
+2020-11-15 01:55:30,845    Message 123 received from Guest
+2020-11-15 01:55:30,845    Function recv_message called with parameters (({'command': 'message', 'sender': 'Guest', 'timestamp': 1605434130.8447587, 'message_text': '123'},), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-15 01:55:30,845    Function recv_message called with parameters (({'command': 'message', 'sender': 'Guest', 'timestamp': 1605434130.8447587, 'message_text': '123'},), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-15 01:55:38,933    User <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0> closed the connection.
+2020-11-15 01:55:38,986    Function parse_args called with parameters ((), {}) from function main with return value ('127.0.0.1', 7777, 'send'). <Logged by Function decorator>
+INFO       each_client          Port: 7777 and  address: 127.0.0.1 - assigned.
+INFO       each_client          Client connected to server.
+2020-11-15 01:55:38,986    Online message for user Guest created: {'command': 'online', 'timestamp': 1605434138.9866557, 'user': {'account_name': 'Guest'}}.
+2020-11-15 01:55:38,986    Function make_online called with parameters ((), {}) from function main with return value {'command': 'online', 'timestamp': 1605434138.9866557, 'user': {'account_name': 'Guest'}}. <Logged by Function decorator>
+INFO       each_client          Message: {'command': 'online', 'timestamp': 1605434138.9866557, 'user': {'account_name': 'Guest'}} sent to server.

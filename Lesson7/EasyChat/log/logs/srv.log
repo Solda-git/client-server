@@ -91,3 +91,43 @@
 2020-11-14 07:49:34,432    Function parse_message called with parameters (({'command': 'message', 'timestamp': 1605368974.0696876, 'account_name': 'Guest', 'message_text': 'Привет'}, [('Guest', 'Привет')], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41932)>), {}) from function main with return value None. <Logged by Function decorator>
 2020-11-14 13:53:18,097    Parsing message: {'command': 'message', 'timestamp': 1605390797.799761, 'account_name': 'Guest', 'message_text': 'ekfjewpfj'}
 2020-11-14 13:53:18,098    Function parse_message called with parameters (({'command': 'message', 'timestamp': 1605390797.799761, 'account_name': 'Guest', 'message_text': 'ekfjewpfj'}, [('Guest', 'ekfjewpfj')], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41932)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-15 01:50:28,061    Function parse_args called with parameters ((), {}) from function main with return value ('', 7777). <Logged by Function decorator>
+2020-11-15 01:50:28,061    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-15 01:50:33,237    INFO       each_server          Connection established. Client details: ('127.0.0.1', 42072).
+2020-11-15 01:50:33,237    INFO       each_server          Connection with the client host ('127.0.0.1', 42072) established
+2020-11-15 01:50:33,237    Parsing message: {'command': 'online', 'timestamp': 1605433833.2373176, 'user': {'account_name': 'Guest'}}
+2020-11-15 01:50:33,237    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1605433833.2373176, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 42072)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-15 01:50:33,253    INFO       each_server          Connection established. Client details: ('127.0.0.1', 42074).
+2020-11-15 01:50:33,254    INFO       each_server          Connection with the client host ('127.0.0.1', 42074) established
+2020-11-15 01:50:33,262    INFO       each_server          Connection established. Client details: ('127.0.0.1', 42076).
+2020-11-15 01:50:33,262    INFO       each_server          Connection with the client host ('127.0.0.1', 42076) established
+2020-11-15 01:50:33,262    Parsing message: {'command': 'online', 'timestamp': 1605433833.2541912, 'user': {'account_name': 'Guest'}}
+2020-11-15 01:50:33,262    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1605433833.2541912, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 42074)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-15 01:50:33,263    Parsing message: {'command': 'online', 'timestamp': 1605433833.262117, 'user': {'account_name': 'Guest'}}
+2020-11-15 01:50:33,263    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1605433833.262117, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 42076)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-15 01:50:43,788    Parsing message: {'command': 'message', 'timestamp': 1605433843.4677267, 'account_name': 'Guest', 'message_text': '234'}
+2020-11-15 01:50:43,788    Function parse_message called with parameters (({'command': 'message', 'timestamp': 1605433843.4677267, 'account_name': 'Guest', 'message_text': '234'}, [('Guest', '234')], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 42072)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-15 01:50:53,810    Parsing message: {'command': 'message', 'timestamp': 1605433853.740358, 'account_name': 'Guest', 'message_text': '986'}
+2020-11-15 01:50:53,811    Function parse_message called with parameters (({'command': 'message', 'timestamp': 1605433853.740358, 'account_name': 'Guest', 'message_text': '986'}, [('Guest', '986')], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 42072)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-15 01:50:57,631    INFO       each_server          Connection established. Client details: ('127.0.0.1', 42078).
+2020-11-15 01:50:57,631    INFO       each_server          Connection with the client host ('127.0.0.1', 42078) established
+2020-11-15 01:54:47,539    Function parse_args called with parameters ((), {}) from function main with return value ('', 7777). <Logged by Function decorator>
+2020-11-15 01:54:47,539    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-15 01:55:26,760    Function parse_args called with parameters ((), {}) from function main with return value ('', 7777). <Logged by Function decorator>
+2020-11-15 01:55:26,761    INFO       each_server          Starting server on ip-address: , port: 7777
+2020-11-15 01:55:26,804    INFO       each_server          Connection established. Client details: ('127.0.0.1', 42120).
+2020-11-15 01:55:26,805    INFO       each_server          Connection with the client host ('127.0.0.1', 42120) established
+2020-11-15 01:55:26,830    INFO       each_server          Connection established. Client details: ('127.0.0.1', 42122).
+2020-11-15 01:55:26,830    INFO       each_server          Connection with the client host ('127.0.0.1', 42122) established
+2020-11-15 01:55:26,830    Parsing message: {'command': 'online', 'timestamp': 1605434126.805281, 'user': {'account_name': 'Guest'}}
+2020-11-15 01:55:26,830    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1605434126.805281, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 42120)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-15 01:55:26,830    Parsing message: {'command': 'online', 'timestamp': 1605434126.8299644, 'user': {'account_name': 'Guest'}}
+2020-11-15 01:55:26,830    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1605434126.8299644, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 42122)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-15 01:55:26,833    INFO       each_server          Connection established. Client details: ('127.0.0.1', 42124).
+2020-11-15 01:55:26,833    INFO       each_server          Connection with the client host ('127.0.0.1', 42124) established
+2020-11-15 01:55:27,335    Parsing message: {'command': 'online', 'timestamp': 1605434126.8336089, 'user': {'account_name': 'Guest'}}
+2020-11-15 01:55:27,335    Function parse_message called with parameters (({'command': 'online', 'timestamp': 1605434126.8336089, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 42124)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-15 01:55:30,844    Parsing message: {'command': 'message', 'timestamp': 1605434130.3819711, 'account_name': 'Guest', 'message_text': '123'}
+2020-11-15 01:55:30,844    Function parse_message called with parameters (({'command': 'message', 'timestamp': 1605434130.3819711, 'account_name': 'Guest', 'message_text': '123'}, [('Guest', '123')], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 42120)>), {}) from function main with return value None. <Logged by Function decorator>
+2020-11-15 01:55:38,986    INFO       each_server          Connection established. Client details: ('127.0.0.1', 42126).
+2020-11-15 01:55:38,986    INFO       each_server          Connection with the client host ('127.0.0.1', 42126) established
